@@ -1,0 +1,217 @@
+/* Color Palette Used:
+Yellow #F7F6CF
+Pale Turquoise #B6D8F2
+‍Linen #F4CFDF
+‍Steel Blue #5784BA
+‍Sky Blue #9AC8EB
+Sage Green: #218B82
+Peach: #EEBAB2 */
+
+body {
+  /*background-color: #B6D8F2;*/
+  margin: 0;
+}
+
+h1 {
+  color: #F7F6CF;
+  font-family: 'Lexend Peta', sans-serif;
+  font-size: 40px;
+  line-height: 20px;
+  margin: 0;
+  padding-top: 100px;
+  text-align: center;
+}
+
+h2 {
+  color: #5784BA;
+  font-family: 'Lexend Peta', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: #5784BA;
+  font-family: 'Lexend Peta', sans-serif;
+  text-align: center;
+}
+
+h4 {
+  color: #5784BA;
+  font-family: 'Lexend Peta', sans-serif;
+  line-height: 2;
+  text-align: center;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-color: indianred;
+  border-top-width: 6px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 60px;
+}
+
+li {
+  line-height: 1;
+  list-style-position: inside;
+  text-align: left;
+}
+
+p, li, ul {
+  color: indianred;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+}
+
+ul {
+  margin: 0 10% 0 40%;
+}
+
+/*Class Selector*/
+
+.bottom-cloud {
+  position: relative;
+  bottom: 200px;
+  left: 950px;
+}
+
+.bottom-container {
+  background-color: #5784BA;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  position:relative;
+  text-align: center;
+}
+
+.btn {
+  background: #5784BA;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Lexend Peta', sans-serif;
+  color: white;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  box-shadow: 3px 3px indianred;
+}
+
+.btn:hover {
+  background: indianred;
+  box-shadow: 3px 3px #5784BA;
+  text-decoration: none;
+}
+
+.contact-me {
+  text-align:center;
+  padding-bottom: 80px;
+}
+
+.copyright {
+  color: white;
+  font-size: 16px;
+}
+
+.footer-link {
+  color: white;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  text-decoration:none;
+}
+
+.footer-link:hover {
+  color:#F7F6CF;
+  font-weight: bolder;
+}
+
+.footer-left, .footer-middle {
+  margin-right: 20px;
+}
+
+.header {
+  color: #F7F6CF;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+.mountain {
+  position: relative;
+  top: 159px;
+  left: 300px;
+}
+
+.profile {
+  display: block;
+  line-height: 2;
+  margin: 50px 350px 100px;
+  text-align: justify;
+}
+
+.profile-img {
+  width: 20%;
+  margin: 0 335px;
+}
+
+.send-an-email {
+  color: indianred;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+.skills-des {
+  float: left;
+  padding-right: 50px;
+  width: 32%;
+}
+
+.skills-dev {
+  float: right;
+  padding-top: 20px;
+  padding-left: 50px;
+  width: 30%;
+}
+
+.skills-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.skill-name {
+  font-weight: bolder;
+}
+
+.skill-row {
+  display: block;
+  margin: 100px 400px 100px 400px;
+  line-height: 2;
+  text-align: justify;
+}
+
+.skillset-row {
+  display: block;
+  margin: 100px 400px 100px 400px;
+  line-height: 2;
+  text-align: left;
+}
+
+
+.top-cloud {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+}
+
+.top-container {
+  background-color: #5784BA;
+  padding-bottom: 155px;
+}
+
+.ul-left {
+  float: left;
+}
+
+.ul-right {
+  float: right;
+}
